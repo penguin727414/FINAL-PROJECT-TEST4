@@ -1,3 +1,6 @@
 ﻿  FINAL_PROJECT_TEST.c
-MSVCRTD.lib(exe_main.obj) : error LNK2019: 在函式 main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中參考了無法解析的外部符號
-C:\Users\user\OneDrive\Desktop\FINAL-PROJECT-TEST4\FINAL-PROJECT-TEST4\x64\Debug\FINAL-PROJECT-TEST4.exe : fatal error LNK1120: 1 個無法解析的外部符號
+C:\Users\user\OneDrive\Desktop\FINAL-PROJECT-TEST4\FINAL-PROJECT-TEST4\FINAL-PROJECT-TEST4\FINAL_PROJECT_TEST.c(31,5): warning C4013: 'generate_numbers' 未定義; 假設 extern 傳回整數
+C:\Users\user\OneDrive\Desktop\FINAL-PROJECT-TEST4\FINAL-PROJECT-TEST4\FINAL-PROJECT-TEST4\FINAL_PROJECT_TEST.c(37,14): warning C4013: 'get_guess' 未定義; 假設 extern 傳回整數
+FINAL_PROJECT_TEST.obj : error LNK2019: 在函式 generate_numbersmain 中參考了無法解析的外部符號
+FINAL_PROJECT_TEST.obj : error LNK2019: 在函式 get_guessmain 中參考了無法解析的外部符號
+C:\Users\user\OneDrive\Desktop\FINAL-PROJECT-TEST4\FINAL-PROJECT-TEST4\x64\Debug\FINAL-PROJECT-TEST4.exe : fatal error LNK1120: 2 個無法解析的外部符號
